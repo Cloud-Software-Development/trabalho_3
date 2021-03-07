@@ -1,0 +1,9 @@
+runtime: nodejs
+env: flex
+
+env_variables:
+  DB_USER: postgres
+  DB_PASS: 12345678
+  DB_NAME: validatordb
+  # e.g. my-awesome-project:us-central1:my-cloud-sql-instance
+  CLOUD_SQL_CONNECTION_NAME: sublime-scion-201618:southamerica-east1:validatordb
